@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Poppins", sans-serif;
+    background-color: ghostwhite;
+}
+/* navbar css start here */
+header {
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-logo h1 {
+    cursor: pointer;
+    font-weight: 700;
+}
+.nav-menu ul {
+    display: flex;
+}
+.nav-menu ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.fas {
+    font-size: 20px;
+}
+hr {
+    width: 90%;
+    border: 1px solid black;
+    background-color: black;
+}
+/* navbar css end here */
+/* main css start here */
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-description h1 {
+    font-size: 30px;
+    font-weight: 700px;
+}
+.product-description a {
+    text-decoration: none;
+    align-items: center;
+    color: white;
+    background-color: deeppink;
+    padding: 10px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.product-image img {
+    width: 70%;
+    border: 3px solid gainsboro;
+    padding: 20px;
+    background-color: ghostwhite;
+
+    border-radius: 50%;
+    margin-left: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.product-image img:hover {
+    cursor: pointer;
+    transition: 0.1s;
+    transform: scale(0.9);
+    -webkit-transform: scale(0.9);
+    -moz-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    -o-transform: scale(0.9);
+    -webkit-transition: 0.1s;
+    -moz-transition: 0.1s;
+    -ms-transition: 0.1s;
+    -o-transition: 0.1s;
+}
+.sponsor {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.sponsors-images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.collections-section {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.collections-section h1 {
+    text-align: center;
+    font-weight: 800;
+}
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 10px;
+    margin-top: 50px;
+}
+.collection h1 {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.collection {
+    background-color: white;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    box-shadow: 0px 0px 1px 0px black;
+    -o-border-radius: 5px;
+}
+.collections a {
+    background-color: deeppink;
+    text-decoration: none;
+    font-size: 16px;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+.fa-star {
+    font-size: 15px;
+    color: rgb(214, 214, 54);
+}
+.fa-star-4 {
+    font-size: 15px;
+    color: rgb(126, 125, 125);
+}
+span {
+    color: rgb(126, 125, 125);
+    font-weight: 700;
+    margin-left: 0px;
+}
+/*main css end here*/
